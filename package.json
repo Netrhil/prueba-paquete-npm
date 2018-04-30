@@ -1,0 +1,27 @@
+{
+  "name": "primer-paquete-npm",
+  "version": "0.1.0",
+  "description": "Paquete de practica",
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Netrhil/prueba-paquete-npm.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "fundamentos",
+    "javascript",
+    "js",
+    "practice"
+  ],
+  "author": "Jose Mansilla <saragar.jim@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Netrhil/prueba-paquete-npm/issues"
+  },
+  "homepage": "https://github.com/Netrhil/prueba-paquete-npm#readme"
+}
