@@ -2,9 +2,9 @@
   "name": "primer-paquete-npm",
   "version": "0.1.0",
   "description": "Paquete de practica",
-  "main": "index.js",
+  "main": "dist/src/platzom.js",
   "scripts": {
-
+    "build": "babel src/platzom.js -d dist"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/Netrhil/prueba-paquete-npm/issues"
   },
-  "homepage": "https://github.com/Netrhil/prueba-paquete-npm#readme"
+  "homepage": "https://github.com/Netrhil/prueba-paquete-npm#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
 }
